@@ -1,5 +1,6 @@
 import React from "react";
 import "./text-header.css";
+import Button from "../button/button";
 
 const TextHeader = ({ title, copy, buttonText }) => {
   return (
@@ -14,9 +15,7 @@ const TextHeader = ({ title, copy, buttonText }) => {
           <div className="col-lg-6 text-center">
             <h2>{title}</h2>
             <p>{copy}</p>
-            <a href="contact.html" className="btn-get-started">
-              {buttonText}
-            </a>
+            <Button buttonText={buttonText} />
           </div>
         </div>
       </div>

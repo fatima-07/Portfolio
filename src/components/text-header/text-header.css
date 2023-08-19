@@ -38,24 +38,6 @@
   font-size: 18px;
 }
 
-.hero .btn-get-started {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 4px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.3s;
-  color: #fff;
-  background: #27a776;
-}
-
-.hero .btn-get-started:hover {
-  background: #2cbc85;
-}
-
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;

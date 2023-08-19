@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <TextHeader
         title="I'm Fatima a Frontend Developer from Toronto"
-        copy="Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet."
+        copy="engineer. My expertise lies in developing robust and scalable applications, focusing on frontend design excellence."
         buttonText="Available for Hire"
       />
       <Footer />

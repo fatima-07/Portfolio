@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 1rem;
+}
+
+.navbar__header-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem ;
+    margin-right: 2rem;
+    position: fixed;
+    padding-top: 1rem;
+
+}
+
+.navbar__header-icon img {
+    width: 65px;
+    height: 65px;  
+}
+
+.navbar__header-icon h1 {
+   color: #FFAA33;
+   font-size:35px;
+   padding-left: 0.3rem;
+   padding-top: 0.3rem;
+   
+   font-family: 'Pacifico', cursive;
+}
+
+.navbar__header-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.navbar__header-links__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 50rem;
+    
+}
+
+.navbar__header-links__container a {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    margin: 0 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+
+.navbar__header-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar__header-menu svg {
+    cursor: pointer;
+}
+
+.navbar__header-menu__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: start;
+    background-color:#313e58;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2); 
+}
+
+.navbar__header-menu__container a {
+    margin: 1rem 0;
+    color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family:'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-left: 0;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .navbar__header-links__container {
+        display: none;
+    }
+
+    .navbar__header-menu {
+        display: flex;
+    }
+}
+    
+@media screen and (max-width: 700px) {
+    .navbar__header {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar__header{
+        padding: 2rem;
+    }
+
+    .navbar__header-menu__container {
+        top: 20px;
+    }
+}

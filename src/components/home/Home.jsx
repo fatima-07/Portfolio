@@ -28,7 +28,7 @@ const Home = () => {
 
 return (
   <div id="Home">
-    <div className="navabr__header">
+    <div className="navbar__header">
       <div className="navbar__header-links">
         <div className="navbar__header-icon " 
          data-aos="fade-right"
@@ -42,13 +42,13 @@ return (
         </div>
       </div>
 
-      <div className="navbar__header-menu">
+      <div className="navbar__header-menu ">
         { toggleMenu 
         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
         { toggleMenu && ( 
-          <div className="navbar__header-menu__container">
+          <div className="navbar__header-menu__container scale-up-center">
             <div className="navbar__header-menu__container-links">
              <Menu />
             </div>

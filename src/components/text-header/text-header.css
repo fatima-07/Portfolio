@@ -3,25 +3,28 @@
   min-height: 30vh;
   background-size: cover;
   position: relative;
-  padding: 140px 0 60px 0;
+  padding: 170px 0 170px 0;
+  
 }
 
-.hero h2 {
+.hero h1 {
+  
   margin: 0 0 10px 0;
   font-size: 38px;
   font-weight: 700;
   color: #fff;
-  font-family: "Cardo", sans-serif
+  font-family: 'Manrope', sans-serif;
+  
 }
 
-.hero h2 span {
+.hero h1 span {
   position: relative;
   z-index: 1;
   padding: 0 5px;
   display: inline-block;
 }
 
-.hero h2 span:before {
+.hero h1 span:before {
   content: "";
   position: absolute;
   height: 50%;
@@ -38,8 +41,10 @@
   font-size: 18px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
   }
 }
+
+

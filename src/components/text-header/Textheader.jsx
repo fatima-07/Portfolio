@@ -1,6 +1,6 @@
 import React from "react";
 import "./text-header.css";
-import Button from "../button/Button";
+{/* import Button from "../button/Button"; */}
 
 const TextHeader = () => {
   return (
@@ -16,7 +16,7 @@ const TextHeader = () => {
            <h1>Front-End Developer</h1>
             <p>Resolving design problems, building smart user interfaces and useful interactions, 
                developing rich web applications and seamless web experiences.</p>
-            <Button />
+            {/* <Button /> */}
          </div>
         </div>
       </div>

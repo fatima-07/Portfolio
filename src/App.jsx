@@ -1,21 +1,23 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
 import "./App.css";
-import TextHeader from "./components/text-header/text-header";
-import Footer from "./components/footer/footer";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <TextHeader
-        title="I'm Fatima a Frontend Developer from Toronto"
-        copy="engineer. My expertise lies in developing robust and scalable applications, focusing on frontend design excellence."
-        buttonText="Available for Hire"
-      />
-      <Footer />
+    <div className="App">
+      <div className="gradient__bg">
+      <Home />
+      </div>
+      <div>
+        <About />
+        <Projects />
+      </div>
+     
+      
     </div>
-  );
-};
+  )
+}
 
 export default App;

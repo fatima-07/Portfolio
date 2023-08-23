@@ -53,8 +53,10 @@
      .about__header h2 {
           font-size: 38px;
      }
-
+     
 }
+
+
 
 @media screen and (max-width: 768px){
      .about__header h1 {
@@ -63,11 +65,8 @@
      .about__header h2 {
           font-size: 38px;
      }
-     .about__bg {
-          padding-top: 100px;
-          padding-bottom: 150px;
-     }
-};
+    
+}; 
      
 @media screen and (max-width: 550px) {
 
@@ -80,5 +79,9 @@
   letter-spacing: 0.5rem;
 }
 
+.about__bg {
+     padding-top: 200px;
+     padding-bottom: 260px;
+}
      
 }

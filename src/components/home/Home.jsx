@@ -42,11 +42,13 @@ return (
         </div>
       </div>
 
-      <div className="navbar__header-menu ">
+      <div className="navbar__header-menu">
+        <div className='align__menu'>
         { toggleMenu 
         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
+        </div>
         { toggleMenu && ( 
           <div className="navbar__header-menu__container scale-up-center">
             <div className="navbar__header-menu__container-links">

@@ -43,27 +43,15 @@
 
 @media screen and(max-width: 550px) {
     .hero h1 {
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
   
-  
-}
-@media screen and (max-width: 768px) {
-  .hero {
-    padding-top: 80px;
-    padding-bottom: 200px;
-  }
-  
-  .hero h1 {
-    font-size: 32px;
-  }
-
 }
 
 @media screen and (max-width: 990px) {
   .hero {
-    padding-top: 80px;
-    padding-bottom: 230px;
+    padding-top: 200px;
+    padding-bottom: 270px;
   }
   
 }

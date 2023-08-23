@@ -119,6 +119,9 @@
     .navbar__header {
         padding: 2rem 4rem;
     }
+    .align__menu {
+        padding-left: 7rem;
+    }
 }
 
 @media screen and (max-width: 670px) {

@@ -3,10 +3,10 @@ import "./button.css";
 
 const Button = () => {
   return (
-    <div className="btn-get-started">
-      <a href="contact.html"><button type="button">Available for Hire</button> </a>
+    <div className="btn-started">
+       <button type="button"> Available for Hire </button> 
     </div>
-  );
+  )
 };
 
 export default Button;

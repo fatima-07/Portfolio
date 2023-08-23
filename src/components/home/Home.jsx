@@ -30,7 +30,7 @@ return (
   <div id="Home">
     <div className="navbar__header">
       <div className="navbar__header-links">
-        <div className="navbar__header-icon " 
+        <div className="navbar__header-icon" 
          data-aos="fade-right"
          data-aos-delay={600}> 
           <img src={icon} alt="icon" />

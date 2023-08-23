@@ -8,7 +8,7 @@ import Image from '../../assets/download.jpg';
 const Projects = () => {
   return (
     
-    <Card className="projects__bg gradient__bg" id="Projects">
+    <div className="flex-column projects__bg gradient__bg" id="Projects">
        <h1>Projects</h1>
       <div className="projects__bg1" >
         <Row  className="g-4">
@@ -29,7 +29,7 @@ const Projects = () => {
       ))}
     </Row>
   </div>
-  </Card>
+  </div>
   
   )
 }

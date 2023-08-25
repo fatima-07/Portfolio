@@ -28,7 +28,7 @@ const Home = () => {
 
 return (
   <div id="Home">
-    <div className="navbar__header fixed-top navbar-dark"> 
+    <div className="navbar__header fixed-top"> 
      <div className="navbar__header-links"> 
         <div className="navbar__header-icon"
          data-aos="fade-right"

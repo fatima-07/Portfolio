@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import TextHeader from '../text-header/Textheader';
-import icon from '../../assets/Icon.png';
+import Icon from '../../assets/Icon.png';
 import './home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,14 +28,16 @@ const Home = () => {
 
 return (
   <div id="Home">
-    <div className="navbar__header">
-      <div className="navbar__header-links">
-        <div className="navbar__header-icon" 
+    <div className="navbar__header fixed-top navbar-dark"> 
+     <div className="navbar__header-links"> 
+        <div className="navbar__header-icon"
          data-aos="fade-right"
          data-aos-delay={600}> 
-          <img src={icon} alt="icon" />
-          <h1>Portfolio</h1>
-        </div>
+         <a class="navbar-brand" href="#Home">
+         <img src={Icon} alt="icon" /> 
+         <h1>Portfolio</h1>
+         </a>
+       </div> 
 
         <div className="navbar__header-links__container">
           <Menu />
@@ -56,9 +58,8 @@ return (
             </div>
           </div>
          )}
-      </div>
+      </div>     
     </div>
-
     <TextHeader />
     </div>
   )

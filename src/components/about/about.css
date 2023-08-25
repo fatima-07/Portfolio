@@ -80,8 +80,14 @@
 }
 
 .about__bg {
-     padding-top: 200px;
-     padding-bottom: 260px;
+     padding: 200px 0 300px 0;
 }
      
 }
+
+@media screen and (max-width: 380px) {
+     .about__bg {
+          padding-top: 50px;
+     }
+}
+

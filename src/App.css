@@ -63,7 +63,7 @@ body{
   }
 }
 
-@media screen and (max-width:550px){
+/* @media screen and (max-width:550px){
   .section__padding{
       padding: 4rem 2rem; 
   }
@@ -71,5 +71,6 @@ body{
       padding: 4rem 2rem;
       
   }
+  
 }
-
+*/

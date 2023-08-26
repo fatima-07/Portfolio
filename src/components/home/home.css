@@ -140,6 +140,16 @@
         padding: 1rem 1rem;
         
     }
+    .navbar__header-icon img {
+        padding-left: 0;
+        width: 30px;
+        height: 30px;  
+        
+    }
+    .navbar__header-icon h1 {
+        font-size: 20px;
+    }
+
 }
 
 
@@ -156,8 +166,7 @@
     .navbar__header-icon img {
         padding-left: 0;
         width: 30px;
-        height: 30px;  
-        
+        height: 30px;    
     }
 
     .navbar__header-icon h1 {

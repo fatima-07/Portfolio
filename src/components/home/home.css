@@ -139,7 +139,7 @@
     }
 
     .navbar__header-icon {
-        padding-left: 0rem;
+        padding-left: 0;
     }
 
     .navbar__header-icon img {
@@ -163,6 +163,16 @@
     .navbar__header {
         position: relative;
         padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .navbar__header {
+         margin-left: 0;
+           
+     }
+    .navbar__header-icon {
+         padding-left: 0;
     }
     
 

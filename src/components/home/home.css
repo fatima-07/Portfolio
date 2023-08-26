@@ -113,6 +113,7 @@
 }
 
 
+
 @media screen and (max-width: 1050px) {
     .navbar__header-links__container {
         display: none;
@@ -125,7 +126,7 @@
     
 @media screen and (max-width: 768px) {
     .navbar__header {
-        padding: 2rem 2rem;
+        padding: 2rem 4rem;
         
     }
 }
@@ -133,7 +134,7 @@
 
 @media screen and (max-width: 425px) {
     .navbar__header {
-        padding-left: 0.3rem;
+        margin-left: 0;
        
     }
 

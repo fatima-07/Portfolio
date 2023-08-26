@@ -171,8 +171,12 @@
          margin-left: 0;
            
      }
-    .navbar__header-icon {
+    .navbar__header-icon img {
          padding-left: 0;
+    }
+
+    .navbar__header-links {
+        margin-left: 0;
     }
     
 

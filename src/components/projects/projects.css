@@ -57,12 +57,9 @@
     .projects__bg1 {
         padding: 0 2.5rem 0 2.5rem;
     }
-    
-}
-
-@media screen and (max-width: 550px) {
     .projects__bg {
         padding-top: 150px;
     }
     
 }
+

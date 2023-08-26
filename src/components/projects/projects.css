@@ -59,3 +59,10 @@
     }
     
 }
+
+@media screen and (max-width: 550px) {
+    .projects__bg {
+        padding-top: 150px;
+    }
+    
+}

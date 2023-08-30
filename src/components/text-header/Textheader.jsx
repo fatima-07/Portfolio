@@ -1,6 +1,6 @@
 import React from "react";
 import "./text-header.css";
-import computer from "../../assets/computer.png";
+import Img from "../../assets/device.png";
 
 const TextHeader = () => {
   return (
@@ -12,17 +12,17 @@ const TextHeader = () => {
       data-aos-delay={600} 
     >
      <div className="row container">
-        {/* <div className="d-flex justify-content-center"> */}
          <div className="col-md"> 
            <h1>Front-End Developer</h1>
             <p>Resolving design problems, building smart user interfaces and useful interactions, 
-               developing rich web applications and seamless web experiences.</p>
+               developing rich web applications and seamless web experiences. Strong problem-solving ability, quickly identifying 
+               and resolving issues that may arise during development.</p>
+            <a href="#contact"><button type="button" class="btn btn-success">Contact Info</button></a>
          </div>
          <div className="col-md computer__img">
-           <img src={computer} alt="computer" />
+           <img src={Img} alt="Img" />
          </div>
         </div>
-    {/* </div> */}
     </section>
 
     

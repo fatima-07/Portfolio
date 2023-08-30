@@ -10,7 +10,7 @@ body{
 }
 .gradient__bg{
     /* ff 3.6+ */
-    background: -moz-linear-gradient(90deg, rgba(1, 12, 40, 1) 36%, rgba(62, 65, 93, 1) 100%); 
+    background: -moz-linear-gradient(90deg, #010c28 36%, rgba(62, 65, 93, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
     background: -webkit-linear-gradient(90deg, rgba(1, 12, 40, 1) 36%, rgba(62, 65, 93, 1) 100%);

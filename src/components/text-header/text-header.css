@@ -3,7 +3,7 @@
   min-height: 30vh; 
   background-size: cover;
   position: relative;
-  padding: 170px 0 170px 0;
+  padding: 120px 0; 
   
 }
 
@@ -11,7 +11,7 @@
   margin: 0 0 10px 0;
   font-size: 38px;
   font-weight: 700;
-  color: #fff;
+  color: hsl(29, 98%, 49%);
   padding-top: 7rem;
   font-family: 'Manrope', sans-serif;
   

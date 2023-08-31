@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../../assets/Fatima.jpeg';
 import JSlogo from '../../assets/java-script-logo.png';
 import Rlogo from '../../assets/atom.png';
-import Blogo from '../../assets/Bootstrap.png';
+import Blogo from '../../assets/strap.png';
 import Nlogo from '../../assets/nodejs.png';
 import Alogo from '../../assets/api.png';
 import './about.css'

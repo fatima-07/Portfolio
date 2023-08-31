@@ -47,3 +47,22 @@
         
     }
 }
+
+@media screen and (max-width:425px) {
+    .contact__body img {
+       width: 110%;
+       height: 110%;
+       padding-left:0;
+    }
+
+    .contact__body p {
+        font-size: 14px;
+        padding-left: 1rem;
+        
+    }
+    .contact__body h2 {
+        font-size: 18px;
+        padding-left: 1rem;
+        
+    }
+}

@@ -6,14 +6,10 @@ const Footer = () => {
     <footer id="footer" className="footer">
       <div className="container">
         <div className="copyright">
-          © Copyright{" "}
+          © Copyright{" "} 2023. Made by {" "}
           <strong>
-            <span>Fatima</span>
+            <span>Fatima Hafeez</span>
           </strong>
-          . All Rights Reserved
-        </div>
-        <div className="credits">
-          OO <a href="/">Fatima 2023</a>
         </div>
       </div>
     </footer>

@@ -1,93 +1,67 @@
-.about__bg {
+.ab__header {
      width: 100%;
      min-height: 30vh;
      background-size: cover;
      position: relative;
-     padding: 200px 0 200px 0;
      background-color: #021430;
-}
-  
-.about__bg1 {
-     display:flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     padding-top: 3rem;
-}   
-
-.about__header h1, h2 {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     text-align: center; 
-     color: #ffffff;
-     font-family: 'Manrope' , sans-serif;
-     letter-spacing: normal;
-     font-size: 50px;
-     line-height: 60px;
-     font-weight: 700;
-     
-    
+     color: #FFFFFF;
+     padding: 100px 20px;
 }
 
-.about__header h2 {
-     padding-bottom: 20px;
-     
+.ab__header h1 {
+     color: rgb(82, 185, 245) ;
+     font-size: 40px;
+     font-family: 'Manrope', sans-serif;
 }
 
-.about__para p {
-     display: flex;
-     justify-content: center;
-     flex-direction: row;
-     align-items: center;
-     color: #ffffff;
-     font-family: 'Manrope' , sans-serif ;
-     
-     padding-top: 1rem;
+.ab__header h2 {
+     line-height: 55px;
+     color:rgb(245, 117, 82);
+     font-size: 35px;
+     font-family: 'Manrope', sans-serif;
 }
 
-@media screen and (max-width:1050px){
-     .about__header h1 {
-          font-size: 38px;
-     }
-     .about__header h2 {
-          font-size: 38px;
-     }
-     
+.ab__header p {
+     font-family: 'Manrope', sans-serif;
+     font-size: 18px;
+}
+.ab__header img {
+     width:55%;
+     height:65%;
+     border-radius: 10px;
 }
 
+.ab__header a {
+     text-decoration: none;
+     color: rgb(255, 196, 0);
 
+     &.active,
+      &:hover {
+        color: rgba(255, 4, 63, 0.619);
+      }
 
-@media screen and (max-width: 768px){
-     .about__header h1 {
-          font-size: 38px;
-     }
-     .about__header h2 {
-          font-size: 38px;
-     }
-    
-}; 
-     
-@media screen and (max-width: 550px) {
-
-   .about_bg1 {
-   flex-direction: column;
+      &.active {
+        font-weight: 500;
+      }
 }
 
-.about__para .p {
-  padding: 0 24px;
-  letter-spacing: 0.5rem;
+.logo_img {
+     width: 30%;
+     height: 25%;
 }
 
-.about__bg {
-     padding: 200px 0 300px 0;
-}
-     
-}
+.grid-container {
+     display: grid;
+     grid-template-columns: 130px 130px 130px 130px 130px;
+     gap: 20px;
+     background-color:transparent;
+     padding: 30px;
+     padding-left: 5px;
+   }
 
-@media screen and (max-width: 380px) {
-     .about__bg {
-          padding-top: 50px;
-     }
+@media screen and (max-width:425px) {
+     .grid-container {
+          grid-template-columns: 100px 100px 100px;
+          gap: 10px;
+     } 
 }
-

@@ -1,0 +1,49 @@
+.contact__body {
+    background-color:  #000000;
+    padding: 150px 20px;
+}
+
+.contact__body img {
+    width: 125%;
+    height: 125%;
+}
+
+.contact__body p {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 6rem;
+    
+}
+
+.contact__body h2 {
+    color:salmon;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 6rem;
+}
+
+.contact__text {
+    padding-top: 8rem;
+}
+
+
+
+@media screen and (max-width:425px) {
+    .contact__body img {
+       width: 110%;
+       height: 110%;
+       padding-left:0;
+    }
+
+    .contact__body p {
+        font-size: 14px;
+        padding-left: 1rem;
+        
+    }
+    .contact__body h2 {
+        font-size: 18px;
+        padding-left: 1rem;
+        
+    }
+}

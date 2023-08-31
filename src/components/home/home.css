@@ -1,220 +1,25 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-.navbar__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 1rem 1rem;
-}
-
-.navbar__header-icon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 1rem;
-    padding-top: 1rem;
-
-}
- 
-.navbar__header-icon img {
-    width: 65px;
-    height: 65px;  
-}
-
-.navbar__header-icon h1 {
-   display: inline-block;
-   vertical-align: middle;
-   color: #FFAA33;
-   font-size:35px;
-   padding-left: 0.5rem;
-
-   font-family: 'Pacifico', cursive;
-}
-
-.navbar__header-links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.navbar__header-links__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    padding-top: 1rem;
-    padding-left: 35rem;
-    
-}
-
-.navbar__header-links__container a {
-    color: #fff;
-    font-family: 'Manrope', sans-serif;
-    margin: 0 1rem;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: capitalize;
-    line-height: 25px;
-    font-weight: 500;
-    font-size: 18px;
-
-    &.active,
-      &:hover {
-        color: rgba(255, 4, 63, 0.619);
-        background-color: transparent;
-      }
-
-      &.active {
-        font-weight: 500;
-      }
-    }
-    
-
-.navbar__header-menu {
-    margin-left: 1rem;
-    display: none;
-    position: relative;
-    z-index: 1;
-}
-
-.navbar__header-menu svg {
-    cursor: pointer;
-}
-
-
-
-.navbar__header-menu__container a {
-    margin: 1rem 0;
-    color:#fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family:'Manrope', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    padding-left: 0;
-
-    &.active,
-      &:hover {
-        color: rgba(255, 4, 63, 0.619);
-        background-color: transparent;
-      }
-
-      &.active {
-        font-weight: 500;
-      }
-    }
-
-
-
-
-@media screen and (max-width: 1050px) {
-    .navbar__header-links__container {
-        display: none;
-    }
-
-    .navbar__header-menu {
-        display: flex;
-    }
-}
-    
-@media screen and (max-width: 768px) {
-    .navbar__header {
-        padding: 1rem 1rem;
-        
-    }
-    .navbar__header-icon img {
-        padding-left: 0;
-        width: 45px;
-        height: 45px;  
-        
-    }
-    .navbar__header-icon h1 {
-        font-size: 25px;
-    }
-
-}
-
-
-@media screen and (max-width: 425px) {
-    .navbar__header {
-        margin-left: 0;
-       
-    }
-
-    .navbar__header-icon {
-        padding-left: 0;
-    }
-
-    .navbar__header-icon img {
-        padding-left: 0;
-        width: 30px;
-        height: 30px;    
-    }
-
-    .navbar__header-icon h1 {
-        font-size: 20px;
-    }
-
-    .navbar__header-menu {
-        position:end;
-    }
-    
-    .navbar__header-menu__container {
-        top: 20px;
-    }
-
-    .navbar__header {
-        position: relative;
-        padding: 0.5rem;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .navbar__header {
-         padding: 0;
-           
-     }
-    .navbar__header-icon img {
-         padding-left: 0;
-         width: 30px;
-         height: 30px; 
-    }
-
-    .navbar__header-icon h1 {
-        font-size: 20px;
-    }
-
-    .navbar__header-links {
-        margin-left: 0;
-    }
-    
-
-}
-
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .navbar__header-icon {
-    flex:1;
-    padding-left:0;
+    display: flex;
+    padding:0 2rem;
 }
 
 .navbar__header-icon h1 {
     display: inline-block;
+    vertical-align: middle;
     color: #FFAA33;
-    font-size:30px;
+    font-size:35px;
     font-family: 'Pacifico', cursive;
     
 }
 
+
 .navbar__header-icon img {
-    padding-left: 0;
     padding-right: 0.3rem;
     width: 50px;
-    height: 50px;    
+    height: 50px;  
+    cursor: pointer;  
 }
 
 
@@ -227,7 +32,7 @@
     text-transform: capitalize;
     line-height: 25px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     
 
     &.active,

@@ -34,14 +34,31 @@
     padding-top: 0.4rem;
     
 }
+.contact__text a {
+    text-decoration: none;
+     color: rgb(255, 196, 0);
+
+     &.active,
+      &:hover {
+        color: rgba(255, 4, 63, 0.619);
+      }
+
+      &.active {
+        font-weight: 500;
+      }
+}
 
 
 
 @media screen and (max-width:425px) {
+    .contact__body {
+        padding: 60px 5px;
+    }
+
     .contact__body img {
-       width: 110%;
-       height: 110%;
-       padding-left:0;
+       width: 90%;
+       height: 90%;
+       padding-left:3.5rem;
     }
 
     .contact__body p {
@@ -57,10 +74,13 @@
 }
 
 @media screen and (max-width:550px) {
+    .contact__body {
+        padding: 130px 5px;
+    }
     .contact__body img {
-       width: 110%;
-       height: 110%;
-       padding-left:0;
+       width: 90%;
+       height: 90%;
+       padding-left:3.5rem;
     }
 
     .contact__body p {

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
+
 .navbar__header-icon {
     display: flex;
     padding:0 2rem;
@@ -11,6 +13,7 @@
     color: #FFAA33;
     font-size:30px;
     font-family: 'Pacifico', cursive;
+    overflow-y: hidden;
     
 }
 

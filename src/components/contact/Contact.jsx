@@ -17,7 +17,7 @@ const Contact = () => {
         <p>developer available at your fingertips?</p> <br/>
         <p>Want to start new project? Or just say hey.</p>
         <p>You can also follow me on 
-          LinkedIn.</p><br/>
+        <a href="https://www.linkedin.com/in/fatima-hafeez-39a196273/" target="_blank"> LinkedIn. </a></p><br/>
         <h2>fatimahafeez.mh@gmail.com</h2>
       </div>
       </div>

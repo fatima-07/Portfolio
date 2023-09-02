@@ -11,6 +11,15 @@
   font-size:60px ;
   padding-bottom: 50px;
 }
+
+.pr-header button {
+  align-items:end;
+}
+
+.pr-header span {
+  padding: 20px 20px;
+  font-size: 25px;
+}
   
 .project p {
     justify-content: flex-end;
@@ -21,9 +30,8 @@
 }
 
 .project img {
-    width: 110%;
+    width: 120%;
     height: 110%;
-  
     padding-bottom: 2.5rem;
 }
 

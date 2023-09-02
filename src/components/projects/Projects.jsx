@@ -9,7 +9,16 @@ const Projects = () => {
   return (
     <>
     <div className="project" id="projects">
-      <div className="pr-header text-center"><h1>Projects</h1></div>
+      <div className="pr-header text-center container"><h1>Projects</h1>
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span aria-hidden="true"></span>
+    <span><span>{" "}</span>{"<<"}Prev</span>
+  </button>
+  <button className="btn-2 carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span aria-hidden="true"></span>
+    <span>Next{">>"}<span>{" "}</span><span>{" "}</span><span>{" "}</span></span>
+  </button>
+  </div>
     <div id="carouselExampleDark" className="carousel carousel-light slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></li>
@@ -18,7 +27,7 @@ const Projects = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-    <div className="row container ">
+    <div className="row container-fluid ">
         <div className="col-xl-6">
         <h1>Artificial Intellignce Website</h1>
         <p>The website is a documentation of AI. For a AI research and deployment company.
@@ -37,11 +46,11 @@ const Projects = () => {
 
 
       <div className="carousel-item" data-bs-interval="10000">
-    <div className="row container ">
+    <div className="row container-fluid ">
         <div className="col-xl-6">
         <h1>Bites & Sips Restaurant Website</h1>
-        <p>This restaurant website helps to build the brand. It lets people <br/>
-        find you online. People look online for contact details and food <br/>
+        <p>This restaurant website helps to build the brand. It lets people 
+        find you online. People look online for contact details and food 
          ordering details. Let your clients get the view of your restaurant today!</p>
          <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
            GitHub and other styling tools.</p> <br/> <br/> <br/>
@@ -57,14 +66,14 @@ const Projects = () => {
    
 
     <div className="carousel-item">
-    <div className="row container third-img ">
+    <div className="row container-fluid third-img ">
         <div className="col-xl-6" data-aos="flip-left">
         <img src={Image} alt="Img"/>
         </div>
         <div className="col-xl-6">
         <h1>Previous Projects</h1>
-        <p>I have built various different projects to fit different aspects of the <br/> client's
-         business. If you want to see more examples of my work than<br />the ones
+        <p>I have built various different projects to fit different aspects of the client's
+         business. If you want to see more examples of my work than the ones
          showcased in this site, please contact me!</p><br /> 
          <p>For this website's github repository, click the link below!</p>
          <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Yarn Package Manager(Yarn),
@@ -75,14 +84,7 @@ const Projects = () => {
       </div>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+  
 </div>
 </div>
  </> 

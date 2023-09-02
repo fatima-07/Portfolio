@@ -62,17 +62,28 @@
 
 @media screen and (max-width: 550px) {
   .hero {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 170px;
   }
 
   
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 550px) {
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 170px;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 390px) {
     .hero {
       padding-top: 10px;
       padding-bottom: 170px;
+      position: relative;
     }
     .computer__img img {
       padding-top: 0.5px;

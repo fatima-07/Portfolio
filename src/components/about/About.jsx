@@ -23,7 +23,7 @@ const About = () => {
         <p>A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.</p><br/>
        <p className='d-flex justify-content-center'>Professionally connected with the web development industry. 
            The main area of expertise is front end development (client side of the web).
-           HTML, CSS, JS, building small and medium web applications with React, custom plugins, 
+           HTML, CSS, JS, building small and medium web applications with different frameworks, custom plugins, 
            features, animations, and coding interactive layouts. I'm a certified AWS Cloud Practitioner 
            and I strive to continuously improve my skills with the latest technologies. </p>
            <p>Visit my <a href="https://www.linkedin.com/in/fatima-hafeez-39a196273/" target="_blank"> Linkedin </a> for more details.</p><br/>

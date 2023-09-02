@@ -29,13 +29,14 @@ const Projects = () => {
     <div className="row container-fluid ">
         <div className="col-xl-6">
         <h1>Artificial Intellignce Website</h1>
-        <p>The website is a documentation of AI. For a AI research and deployment company.
+        <p>This website is a documentation of AI. For a AI research and deployment company.
          The mission is to ensure that artificial intelligence benefits all of humanity. Share your email and other details to 
          get daily updates about AI.</p>
-         <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
-           GitHub, cloud platform deployment using Vercel and other trending industry level tools.</p> <br/> <br/> <br/>
-          <p><a href="https://github.com/fatima-07/Artificial-Intelligence" target="_blank">View the code {'>'}</a>{"   "}</p>
-          <p><a href="https://artificial-intelligence-n91s8kkuj-fatima-07.vercel.app/" target='_blank'>View the app {'>'}</a></p>
+         <p>Built with: React, Javascript, Bootstrap, React-Icons, HTML, CSS, Node Package Manager(NPM),
+           GitHub, cloud platform deployment services - Vercel and other trending industry level tools. <a 
+           href="https://github.com/fatima-07/Artificial-Intelligence" target="_blank">View code! </a><span>{" "}</span><span>{"   "}</span>
+           <a href="https://artificial-intelligence-n91s8kkuj-fatima-07.vercel.app/" target='_blank'>View app! </a></p>
+          
           </div>
           <div className="col-xl-6"  data-aos="flip-right">
         <img src={AI} alt="Artificial-Intelligence"/>
@@ -43,18 +44,18 @@ const Projects = () => {
       </div>
       </div>
 
-
-      <div className="carousel-item" data-bs-interval="10000">
+    <div className="carousel-item" data-bs-interval="10000">
     <div className="row container-fluid ">
-        <div className="col-xl-6">
+        <div className="carousel-header col-xl-6">
         <h1>Bites & Sips Restaurant Website</h1>
+    
         <p>This restaurant website helps to build the brand. It lets people 
         find you online. People look online for contact details and food 
          ordering details. Let your clients get the view of your restaurant today!</p>
          <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
-           GitHub, deployment-Vercel and other styling tools.</p> <br/> <br/> <br/>
-          <p><a href="https://github.com/fatima-07/Bites---Sips" target="_blank">View the code {'>'}</a>{"   "}</p>
-          <p><a href="https://bites-sips.vercel.app/" target="_blank">View the app {'>'}</a></p>
+           GitHub, deployment-Vercel and other styling tools. 
+           <a href="https://github.com/fatima-07/Bites---Sips" target="_blank"> View code! </a><span>{" "}</span> <span>{" "}</span>
+           <a href="https://bites-sips.vercel.app/" target="_blank"> View app! </a></p> 
           </div>
           <div className="col-xl-6"  data-aos="flip-right">
         <img src={BS} alt="Bites & Sips"/>
@@ -76,9 +77,9 @@ const Projects = () => {
          showcased in this site, please contact me!</p><br /> 
          <p>For this website's github repository, click the link below!</p>
          <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Yarn Package Manager(Yarn),
-           GitHub, Vercel etc.</p>
-         <p><a href="https://github.com/fatima-07/Portfolio" target="_blank">View the code {'>'}</a>{"   "}</p>
-          <p><a href="#home" target="_self">View the app {'>'}</a></p>
+           GitHub, Vercel etc. <a href="https://github.com/fatima-07/Portfolio" target="_blank">View code! </a><span>{" "}</span> <span>{" "}</span>
+          <a href="#home" target="_self">View app!</a></p>
+         
           </div>
       </div>
     </div>

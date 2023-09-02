@@ -86,4 +86,7 @@
           grid-template-columns: 100px 100px 100px;
           gap: 10px;
      } 
+     .logo_img p {
+          font-size: 13px;
+     }
 }

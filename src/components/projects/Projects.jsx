@@ -2,7 +2,6 @@ import React from 'react';
 import Image from '../../assets/computer.png';
 import AI from '../../assets/AI.png';
 import BS from '../../assets/Bites-Sips.png';
-import BitesSips from '../../assets/Bites-Sips.png';
 import './projects.css';
 
 const Projects = () => {
@@ -34,7 +33,7 @@ const Projects = () => {
          The mission is to ensure that artificial intelligence benefits all of humanity. Share your email and other details to 
          get daily updates about AI.</p>
          <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
-           GitHub and other trending industry level tools.</p> <br/> <br/> <br/>
+           GitHub, cloud platform deployment using Vercel and other trending industry level tools.</p> <br/> <br/> <br/>
           <p><a href="https://github.com/fatima-07/Artificial-Intelligence" target="_blank">View the code {'>'}</a>{"   "}</p>
           <p><a href="https://artificial-intelligence-n91s8kkuj-fatima-07.vercel.app/" target='_blank'>View the app {'>'}</a></p>
           </div>
@@ -53,7 +52,7 @@ const Projects = () => {
         find you online. People look online for contact details and food 
          ordering details. Let your clients get the view of your restaurant today!</p>
          <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
-           GitHub and other styling tools.</p> <br/> <br/> <br/>
+           GitHub, deployment-Vercel and other styling tools.</p> <br/> <br/> <br/>
           <p><a href="https://github.com/fatima-07/Bites---Sips" target="_blank">View the code {'>'}</a>{"   "}</p>
           <p><a href="https://bites-sips.vercel.app/" target="_blank">View the app {'>'}</a></p>
           </div>
@@ -77,7 +76,7 @@ const Projects = () => {
          showcased in this site, please contact me!</p><br /> 
          <p>For this website's github repository, click the link below!</p>
          <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Yarn Package Manager(Yarn),
-           GitHub etc.</p>
+           GitHub, Vercel etc.</p>
          <p><a href="https://github.com/fatima-07/Portfolio" target="_blank">View the code {'>'}</a>{"   "}</p>
           <p><a href="#home" target="_self">View the app {'>'}</a></p>
           </div>

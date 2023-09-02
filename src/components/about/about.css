@@ -23,7 +23,8 @@
 
 .ab__header p {
      font-family: 'Manrope', sans-serif;
-     font-size: 18px;
+     font-size: 20px;
+     text-align: justify;
 }
 .ab__header img {
      width:55%;
@@ -60,6 +61,10 @@
    }
 
 @media screen and (max-width:425px) {
+     .ab__header img {
+          width:50%;
+     }
+
      .grid-container {
           grid-template-columns: 100px 100px 100px;
           gap: 10px;
@@ -67,6 +72,10 @@
 }
 
 @media screen and (max-width:550px) {
+     .ab__header img {
+          width:50%;
+     }
+
      .grid-container {
           grid-template-columns: 100px 100px 100px;
           gap: 10px;

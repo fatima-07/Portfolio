@@ -6,36 +6,49 @@
      color: #FFFFFF;
      padding: 140px 20px;
 }
+.pr-header{
+  color:cornflowerblue;
+  font-size:60px ;
+  padding-bottom: 50px;
+}
   
 .project p {
     justify-content: flex-end;
-    font-size:18px ;
+    font-size:20px ;
     color:#FFFFFF;
     font-family: 'Manrope', sans-serif;
+    text-align: justify;
 }
 
 .project img {
     width: 110%;
     height: 110%;
-    border-color: #FFFFFF;
-    padding-bottom: 8rem;
+  
+    padding-bottom: 2.5rem;
+}
+
+.third-img img{
+  width: 80%;
+  height:100%;
+  
 }
 
 .carousel-inner h1 {
     font-size: 40px;
-    color: #df0647;
+    color:chartreuse;
     font-family: 'Manrope', sans-serif;
     padding-top: 1rem;
 }
 
 .carousel-inner a {
-    color:cornflowerblue;
+    color:yellow;
     font-family: 'Manrope', sans-serif;
     text-decoration: none;
+    font-size: 18px;
 
     &.active,
     &:hover {
-      color: #FFAA33;
+      color:deeppink;
     }
 
     &.active {

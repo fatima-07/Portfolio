@@ -1,6 +1,6 @@
 import React from 'react';
 import {useEffect} from 'react';
-import Icon from '../../assets/Icon.png';
+import Logo from '../../assets/logo.png';
 import TextHeader from '../text-header/Textheader';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,11 +20,11 @@ const Home = () => {
          data-aos="fade-right"
          data-aos-delay={600}> 
          <a className="navbar-brand" >
-         <img src={Icon} alt="icon" /> 
+         <img src={Logo} alt="logo" /> 
          <h1>Portfolio</h1>
          </a>
      </div> 
-      <div className="nav__links collapse navbar-collapse justify-content-end" > 
+      <div className="nav__links collapse navbar-collapse justify-content-end" id="navbarNav" > 
         <ul className="navbar-nav ">
         <li class="nav-item">
          <a className="nav-link" href="#home">Home</a>

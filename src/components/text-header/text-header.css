@@ -36,7 +36,8 @@
 .hero p {
   color: #FFFFFF;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .computer__img {

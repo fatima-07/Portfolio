@@ -11,6 +11,11 @@
   font-size:60px ;
   padding-bottom: 50px;
 }
+.pr-p {
+  font-size: 8px;
+  color: darkgrey;
+  text-align: center;
+}
 
 .pr-header button {
   align-items:start;

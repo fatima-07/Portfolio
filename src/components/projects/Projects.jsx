@@ -36,7 +36,7 @@ const Projects = () => {
            GitHub, cloud platform deployment services - Vercel and other trending industry level tools. <a 
            href="https://github.com/fatima-07/Artificial-Intelligence" target="_blank">View code! </a><span>{" "}</span><span>{"   "}</span>
            <a href="https://artificial-intelligence-n91s8kkuj-fatima-07.vercel.app/" target='_blank'>View app! </a></p>
-          
+          <p>(Swipe Next Project {">>"})</p>
           </div>
           <div className="col-xl-6"  data-aos="flip-right">
         <img src={AI} alt="Artificial-Intelligence"/>
@@ -53,9 +53,10 @@ const Projects = () => {
         find you online. People look online for contact details and food 
          ordering details. Let your clients get the view of your restaurant today!</p>
          <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
-           GitHub, deployment-Vercel and other styling tools. 
+           GitHub, Vercel etc. 
            <a href="https://github.com/fatima-07/Bites---Sips" target="_blank"> View code! </a><span>{" "}</span> <span>{" "}</span>
            <a href="https://bites-sips.vercel.app/" target="_blank"> View app! </a></p> 
+           <p>(Swipe Next Project {">>"})</p>
           </div>
           <div className="col-xl-6"  data-aos="flip-right">
         <img src={BS} alt="Bites & Sips"/>

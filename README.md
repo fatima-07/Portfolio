@@ -12,11 +12,12 @@ Network Performance. Yarn efficiently queues requests and avoids request waterfa
 Network Resilience. A single request that fails will not cause the entire installation to fail. Requests are automatically retried upon failure.
 Flat Mode. Yarn resolves mismatched versions of dependencies to a single version to avoid creating duplicates.
 
-# Install:
+# Install
 npm install
 
-# Run the development server:
+# Run the development server
 yarn dev
+
 It will locate to you to http://127.0.0.1:5173/ 
 
 # Deployment 

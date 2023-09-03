@@ -26,7 +26,7 @@ const About = () => {
            HTML, CSS, JS, building small and medium web applications with different frameworks, custom plugins, 
            features, animations, and coding interactive layouts. I'm a certified AWS Cloud Practitioner 
            and I strive to continuously improve my skills with the latest technologies. </p>
-           <p>Visit my <a href="https://www.linkedin.com/in/fatima-hafeez-39a196273/" target="_blank"> Linkedin </a> for more details.</p><br/>
+           <p>Visit my <a href="https://www.linkedin.com/in/fatima-hafeez-39a196273/" target="_blank"> LinkedIn </a> for more details.</p><br/>
            <div className='logo_img grid-container' data-aos="flip-left"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="1000">

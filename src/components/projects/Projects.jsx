@@ -29,10 +29,10 @@ const Projects = () => {
     <div className="row container-fluid ">
         <div className="col-xl-6">
         <h1>Artificial Intellignce Website</h1>
-        <p>This website is a documentation of AI. For a AI research and deployment company.
+        <p>The website is a documentation of AI. For an AI research and deployment company.
          The mission is to ensure that artificial intelligence benefits all of humanity. Share your email and other details to 
          get daily updates about AI.</p>
-         <p>Built with: React, Javascript, Bootstrap, React-Icons, HTML, CSS, Node Package Manager(NPM),
+         <p>Built with: React, React Hooks, React-Icons, JavaScript, HTML, CSS, Node Package Manager(NPM),
            GitHub, cloud platform deployment services - Vercel and other trending industry level tools. <a 
            href="https://github.com/fatima-07/Artificial-Intelligence" target="_blank">View code! </a><span>{" "}</span><span>{"   "}</span>
            <a href="https://artificial-intelligence-n91s8kkuj-fatima-07.vercel.app/" target='_blank'>View app! </a></p>
@@ -50,8 +50,8 @@ const Projects = () => {
         <h1>Bites & Sips Restaurant Website</h1>
     
         <p>This restaurant website helps to build the brand. It lets people 
-        find you online. People look online for contact details and food 
-         ordering details. Let your clients get the view of your restaurant today!</p>
+        find restaurant online. People can look online for contact details and food 
+         ordering details. Let the clients get the view of the restaurant today!</p>
          <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
            GitHub, Vercel etc. 
            <a href="https://github.com/fatima-07/Bites---Sips" target="_blank"> View code! </a><span>{" "}</span> <span>{" "}</span>
@@ -77,7 +77,7 @@ const Projects = () => {
          business. If you want to see more examples of my work than the ones
          showcased in this site, please contact me!</p><br /> 
          <p>For this website's github repository, click the link below!</p>
-         <p>Built with: React, Javascript, Bootstrap, HTML, CSS, Yarn Package Manager(Yarn),
+         <p>Built with: React, React Hooks, Javascript, Bootstrap, HTML, CSS, Yarn Package Manager(Yarn),
            GitHub, Vercel etc. <a href="https://github.com/fatima-07/Portfolio" target="_blank">View code! </a><span>{" "}</span> <span>{" "}</span>
           <a href="#home" target="_self">View app!</a></p>
          

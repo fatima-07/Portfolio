@@ -52,7 +52,7 @@ const Projects = () => {
         <p>This restaurant website helps to build the brand. It lets people 
         find restaurant online. People can look online for contact details and food 
          ordering details. Let the clients get the view of the restaurant today!</p>
-         <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Node Package Manager(NPM),
+         <p>Built with: Angular, Typescript, Bootstrap, HTML, CSS, Tailwind CSS, Node Package Manager(NPM),
            GitHub, Vercel etc. 
            <a href="https://github.com/fatima-07/Bites---Sips" target="_blank"> View code! </a><span>{" "}</span> <span>{" "}</span>
            <a href="https://bites-sips.vercel.app/" target="_blank"> View app! </a></p> 
